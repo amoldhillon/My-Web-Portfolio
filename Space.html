@@ -1,0 +1,388 @@
+<style>
+    @font-face {
+        font-family: Calibri;
+        panose-1: 2 15 5 2 2 2 4 3 2 4;
+        mso-font-charset: 0;
+        mso-generic-font-family: swiss;
+        mso-font-pitch: variable;
+        mso-font-signature: -536870145 1073786111 1 0 415 0;
+    }
+    /* Style Definitions */
+    p.MsoNormal, li.MsoNormal, div.MsoNormal {
+        mso-style-unhide: no;
+        mso-style-qformat: yes;
+        mso-style-parent: "";
+        margin-top: 2.0pt;
+        margin-right: 0in;
+        margin-bottom: 8.0pt;
+        margin-left: 0in;
+        line-height: 120%;
+        mso-pagination: widow-orphan;
+        font-size: 10.0pt;
+        font-family: "Calibri",sans-serif;
+        mso-ascii-font-family: Calibri;
+        mso-ascii-theme-font: minor-latin;
+        mso-fareast-font-family: "Times New Roman";
+        mso-fareast-theme-font: minor-fareast;
+        mso-hansi-font-family: Calibri;
+        mso-hansi-theme-font: minor-latin;
+        mso-bidi-font-family: "Times New Roman";
+        mso-bidi-theme-font: minor-bidi;
+        color: #595959;
+        mso-themecolor: text1;
+        mso-themetint: 166;
+        mso-font-kerning: 10.0pt;
+        mso-fareast-language: JA;
+    }
+    h1 {
+        mso-style-qformat: yes;
+        mso-style-next: Normal;
+        margin-top: 2.0pt;
+        margin-right: 0in;
+        margin-bottom: 8.0pt;
+        margin-left: 0in;
+        text-align: right;
+        line-height: 120%;
+        mso-pagination: widow-orphan;
+        mso-outline-level: 1;
+        font-size: 10.5pt;
+        font-family: "Calibri",sans-serif;
+        mso-ascii-font-family: Calibri;
+        mso-ascii-theme-font: major-latin;
+        mso-fareast-font-family: "Times New Roman";
+        mso-fareast-theme-font: major-fareast;
+        mso-hansi-font-family: Calibri;
+        mso-hansi-theme-font: major-latin;
+        mso-bidi-font-family: "Times New Roman";
+        mso-bidi-theme-font: major-bidi;
+        color: #5C2D91;
+        mso-themecolor: accent1;
+        text-transform: uppercase;
+        mso-font-kerning: 10.0pt;
+        mso-fareast-language: JA;
+        font-weight: normal;
+    }
+    h2 {
+        mso-style-qformat: yes;
+        mso-style-next: Normal;
+        margin-top: 2.0pt;
+        margin-right: 0in;
+        margin-bottom: 2.0pt;
+        margin-left: 0in;
+        line-height: 120%;
+        mso-pagination: widow-orphan lines-together;
+        page-break-after: avoid;
+        mso-outline-level: 2;
+        font-size: 10.0pt;
+        font-family: "Calibri",sans-serif;
+        mso-ascii-font-family: Calibri;
+        mso-ascii-theme-font: major-latin;
+        mso-fareast-font-family: "Times New Roman";
+        mso-fareast-theme-font: major-fareast;
+        mso-hansi-font-family: Calibri;
+        mso-hansi-theme-font: major-latin;
+        mso-bidi-font-family: "Times New Roman";
+        mso-bidi-theme-font: major-bidi;
+        color: #404040;
+        mso-themecolor: text1;
+        mso-themetint: 191;
+        text-transform: uppercase;
+        mso-font-kerning: 10.0pt;
+        mso-ligatures: standardcontextual;
+        mso-fareast-language: JA;
+    }
+    p.ResumeText, li.ResumeText, div.ResumeText {
+        mso-style-name: "Resume Text";
+        mso-style-unhide: no;
+        mso-style-qformat: yes;
+        margin-top: 2.0pt;
+        margin-right: 1.0in;
+        margin-bottom: 2.0pt;
+        margin-left: 0in;
+        line-height: 120%;
+        mso-pagination: widow-orphan;
+        font-size: 10.0pt;
+        font-family: "Calibri",sans-serif;
+        mso-ascii-font-family: Calibri;
+        mso-ascii-theme-font: minor-latin;
+        mso-fareast-font-family: "Times New Roman";
+        mso-fareast-theme-font: minor-fareast;
+        mso-hansi-font-family: Calibri;
+        mso-hansi-theme-font: minor-latin;
+        mso-bidi-font-family: "Times New Roman";
+        mso-bidi-theme-font: minor-bidi;
+        color: #595959;
+        mso-themecolor: text1;
+        mso-themetint: 166;
+        mso-font-kerning: 10.0pt;
+        mso-fareast-language: JA;
+    }
+    p.ContactInfo, li.ContactInfo, div.ContactInfo {
+        mso-style-name: "Contact Info";
+        mso-style-unhide: no;
+        mso-style-qformat: yes;
+        margin-top: 2.0pt;
+        margin-right: 0in;
+        margin-bottom: 0in;
+        margin-left: 0in;
+        margin-bottom: .0001pt;
+        text-align: right;
+        mso-pagination: widow-orphan;
+        font-size: 9.0pt;
+        font-family: "Calibri",sans-serif;
+        mso-ascii-font-family: Calibri;
+        mso-ascii-theme-font: minor-latin;
+        mso-fareast-font-family: "Times New Roman";
+        mso-fareast-theme-font: minor-fareast;
+        mso-hansi-font-family: Calibri;
+        mso-hansi-theme-font: minor-latin;
+        mso-bidi-font-family: "Times New Roman";
+        mso-bidi-theme-font: minor-bidi;
+        color: #595959;
+        mso-themecolor: text1;
+        mso-themetint: 166;
+        mso-font-kerning: 10.0pt;
+        mso-fareast-language: JA;
+    }
+    p.Name, li.Name, div.Name {
+        mso-style-name: Name;
+        mso-style-unhide: no;
+        mso-style-qformat: yes;
+        mso-style-next: Normal;
+        margin-top: 12.0pt;
+        margin-right: .1in;
+        margin-bottom: 8.0pt;
+        margin-left: .1in;
+        line-height: 120%;
+        mso-pagination: widow-orphan;
+        background: #5C2D91;
+        mso-background-themecolor: accent1;
+        border: none;
+        mso-border-alt: solid #5C2D91 .5pt;
+        mso-border-themecolor: accent1;
+        padding: 0in;
+        mso-padding-alt: 4.0pt 6.0pt 4.0pt 6.0pt;
+        font-size: 16.0pt;
+        font-family: "Calibri",sans-serif;
+        mso-ascii-font-family: Calibri;
+        mso-ascii-theme-font: major-latin;
+        mso-fareast-font-family: "Times New Roman";
+        mso-fareast-theme-font: major-fareast;
+        mso-hansi-font-family: Calibri;
+        mso-hansi-theme-font: major-latin;
+        mso-bidi-font-family: "Times New Roman";
+        mso-bidi-theme-font: major-bidi;
+        color: white;
+        mso-themecolor: background1;
+        text-transform: uppercase;
+        mso-font-kerning: 10.0pt;
+        mso-fareast-language: JA;
+    }
+</style>
+
+<p class=ContactInfo>
+    <a href="">
+        dhill11v@uwindsor.ca
+    </a>
+</p>
+
+<p class=ContactInfo>
+    Toronto, Ontario
+
+<p class=ContactInfo>
+    Canada
+</p>
+
+<div style='mso-element:para-border-div;border:solid #5C2D91 1.0pt;mso-border-themecolor:accent1;mso-border-alt:solid #5C2D91 .5pt;
+ mso-border-themecolor:accent1;padding:4.0pt 6.0pt 4.0pt 6.0pt;background:#5C2D91;mso-background-themecolor:accent1;margin-left:.1in;margin-right:.1in'>
+    <p class=Name>
+        Amolbir Singh Dhillon
+        <br>
+        &#9743 : +12269758979 <br>
+        
+    </p>
+</div>
+
+<table class=ResumeTable border=0 cellspacing=0 cellpadding=0 title="Resume text" summary=Resume width="100%" style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:.1in 0in .1in 0in'>
+    <td width=119 valign=top style='width:88.9pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+        <h1>
+            Objective
+        </h1>
+    </td>
+
+    <td width=31 valign=top style='width:23.6pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'></td>
+
+    <td width=522 valign=top style='width:391.5pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+        <p class=MsoNormal>
+            Self-motivated Web and App Developer with experience in digital writing and editing. Strong ability to work in a team
+
+            and manage task accordingly. Familiar with agile practices and upmost importance to deadlines. A highly organized and team
+
+            player with knowledge of how apps and websites work.
+        </p>
+    </td>
+
+
+
+
+
+
+
+
+
+
+    <tr style='mso-yfti-irow:2'>
+        <td width=119 valign=top style='width:88.9pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+            <h1>
+                Professional Skills
+            </h1>
+        </td>
+        <td width=31 valign=top style='width:23.6pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'></td>
+        <td width=522 valign=top style='width:391.5pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;
+  mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+            <span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+                
+                <p class=ResumeText>
+                    HTML5 and CSS3
+                </p>
+                <p class=ResumeText>
+                    Javascript (jQuery, Bootstrap, Express.js, Nodejs)
+                </p>
+                <p class=ResumeText>
+                    UX Design
+                </p>
+                <p class=ResumeText>
+                    PHP (Laravel)
+                </p>
+                <p class=ResumeText>
+                    DOM Manipulation
+                </p>
+                <p class=ResumeText>
+                   REST , APIs
+                </p>
+                <p class=ResumeText>
+                
+                </p>
+                <p class=ResumeText>
+                    MySQL, MongoDB
+                </p>
+
+        </td>
+    </tr>
+
+    <tr style='mso-yfti-irow:3'>
+        <td width=119 valign=top style='width:88.9pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+            <h1>
+                Professional Experience
+            </h1>
+        </td>
+        <td width=31 valign=top style='width:23.6pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+            <p class=MsoNormal>
+            </p>
+        </td>
+        <td width=522 valign=top style='width:391.5pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;
+  mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+            <span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+            </span>
+            <h2>
+                ACEESSLOCATOR.COM (WEB DEVELOPER AND TESTER)                                                      
+                <p class=ResumeText> John McGivney Children's Centre, Windsor, Canada </p>
+
+            </h2>
+            <p class=ResumeText>
+                 Jan 2017 - Aug 2017
+            </p>
+            <p class=ResumeText>
+                • Web Application using the Laravel PHP framework built  for ease of location access to especially able people
+            </p>
+            <p class=ResumeText>
+                • Developed a UX interface to access region data in the database for country selection in profile
+            </p>
+            <p class=ResumeText>
+                • Installed WAMP server for PHP my admin to install PHP and MYSQL dependencies
+            </p>
+            <p class=ResumeText>
+                • Packaged mobile applications for Android, iOS, WP, Blackberry and like 
+            </p>
+            <br>
+            <h2>
+                JUNIOR SOFTWARE ENGINEER (INTERN)                                                                                  
+                <p class=ResumeText> Huawei Technologies, India </p> 
+            </h2>
+            <p class=ResumeText>Jan 2016 – Jun 2016</p>
+            <p class=ResumeText>•   Successfully completed Huawei certified ICT Graduate Training which covered modules like Relational Database, Wireless Fundamentals, Core Network Fundamentals </p>
+             <p class=ResumeText>•   Responsible to maintain database for the organizations like Airtel </p>
+
+             <tr style='mso-yfti-irow:3'>
+        <td width=119 valign=top style='width:88.9pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+            <h1>
+                Academic Projects
+            </h1>
+        </td>
+        <td width=31 valign=top style='width:23.6pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+            <p class=MsoNormal>
+            </p>
+        </td>
+        <td width=522 valign=top style='width:391.5pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;
+  mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+            <span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+            </span>
+            <h2>
+                <a href="https://github.com/amoldhillon/Color-Guess-Game"> RBG COLOR GAME </a>   </h2>
+                   <p class=ResumeText>Feb 2018 – March 2018 </p>
+            <p class=ResumeText> 
+                • Developed a RBG Color guessing game with HTML5, CSS3 & JS </p>
+            <p class=ResumeText>
+                •   Used libraries Bootstrap and jQuery in the code </p>
+            <p class=ResumeText>
+                •   JS code randomly generates three RGB color numbers </p>
+            <p class=ResumeText>
+                •   Guess is made from 6 circles each assigned with 6 assorted colors </p>
+                <br>
+             <h2> <a href="https://github.com/amoldhillon/Bootstrap"> Responsive Web Page for UWindsor Sikh Students Association </a> </h2>
+             <p class=ResumeText> Feb 2018 – March 2018 </p>
+             <p class=ResumeText> • Designed a beautiful and responsive web page of SSA (Sikh Students Association), UWindsor</p>
+             <p class=ResumeText> • Bootstrap was used for design and code written in HTML5 and CSS3 </p>
+             <p class=ResumeText> • Includes a beautiful collection of Images captured during the first Turban Day Event</p>
+             <p class=ResumeText> • Links and Information about SSA and how to join along with contact information and alerts to future events </p>
+               <br>
+                <h2>
+                <a href="https://github.com/amoldhillon/Node-MySQL"> MYSQL DATABASE WITH NODE.JS & EXPRESS  </a> </h2>                                                                            
+                <p class=ResumeText>November 2017 </p>
+             <p class=ResumeText> • Creates connection on localhost using MySQL and express dependencies </p>
+             <p class=ResumeText> • Creates database and perform other queries using node.js </p>
+             <br>
+             <h2>
+                 <a href="https://github.com/amoldhillon/ToDo-List"> jQuery To Do List App </a> </h2>
+             <p class=ResumeText> December 2017 – January 2018 </p>
+             <p class=ResumeText> • Single Page web responsive Application using iQuery, CSS and HTML5 </p>
+             <p class=ResumeText> • A very polished app with jQuery Fades and Slide methods </p>
+             <p class=ResumeText> • A button adds ups new tasks and a delete button is toggled on pressing the task </p>
+             
+
+    <tr style='mso-yfti-irow:4'>
+        <td width=119 valign=top style='width:88.9pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+            <h1>
+                Education
+            </h1>
+        </td>
+        <td width=31 valign=top style='width:23.6pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'></td>
+        <td width=522 valign=top style='width:391.5pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+            <span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+            </span>
+            <h2>
+                University of Windsor, Windsor, Ontario, Canada
+            </h2>
+            <p class=MsoNormal>
+                MEng (Computer Eng)
+            </p>
+        </td>
+    </tr>
+
+</table>
+
+</div>
+
+</body>
+
+</html>
